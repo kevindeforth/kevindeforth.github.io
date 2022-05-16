@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on The Grob</title>
+    <link>https://thegreatobserver.com/posts/</link>
+    <description>Recent content in Posts on The Grob</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/kevindeforth&#34;&gt;Kevin Deforth&lt;/a&gt; 2022</copyright>
+    <lastBuildDate>Fri, 19 Nov 2021 07:02:33 +0200</lastBuildDate><atom:link href="https://thegreatobserver.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fundamentals - Financial Infrastructure</title>
+      <link>https://thegreatobserver.com/posts/issue001/issue001/</link>
+      <pubDate>Fri, 19 Nov 2021 07:02:33 +0200</pubDate>
+      
+      <guid>https://thegreatobserver.com/posts/issue001/issue001/</guid>
+      <description>This issue of &lt;em&gt;the Grob&lt;/em&gt; consists of a brief commentary on today&amp;rsquo;s market, followed by articles explaining concepts, that I believe to be elementary to any discussion centered around cryptocurrencies. The first article is emphazising some differences between traditional currencies and cryptocurrencies. The second article will explain some properties of currencies, that nobel prize laureate Friedrich Hayek deemed appropriate for estimating a currency&amp;rsquo;s usefulness. The third article defines financial infrastructure and indicates a model, that can be used for assessing the effectiveness thereof. Enjoy the read.</description>
+    </item>
+    
+  </channel>
+</rss>

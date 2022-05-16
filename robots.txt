@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://thegreatobserver.com/sitemap.xml

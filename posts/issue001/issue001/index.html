@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Fundamentals - Financial Infrastructure | The Grob</title>
+
+
+
+<link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/hugo-custom-cite.css">
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+></script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [["$", "$"]],
+    },
+  };
+</script>
+
+
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="canonical" href="https://thegreatobserver.com/posts/issue001/issue001/">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+<section class="section">
+  <div class="container">
+    <nav id="nav-main" class="nav">
+      <div id="nav-name" class="nav-left">
+        <a id="nav-anchor" class="nav-item" href="https://thegreatobserver.com">
+          <h1 id="nav-heading" class="title is-4">The Grob</h1>
+        </a>
+      </div>
+      <div class="nav-right">
+        <nav id="nav-items" class="nav-item level is-mobile"><a class="level-item" aria-label="github" href='https://github.com/kevindeforth'
+            target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+    
+  </svg></i>
+            </span>
+          </a></nav>
+      </div>
+    </nav>
+
+    <nav class="nav">
+      
+
+      
+    </nav>
+
+  </div>
+  <script src="/js/navicon-shift.js"></script>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="subtitle tags is-6 is-pulled-right">
+      
+      
+<a class="subtitle is-6" href="/tags/blockchain/">#Blockchain</a>
+
+
+
+  
+  | <a class="subtitle is-6" href="/tags/cryptocurrencies/">#Cryptocurrencies</a>
+  
+  | <a class="subtitle is-6" href="/tags/financial-infrastructure/">#Financial Infrastructure</a>
+  
+
+
+      
+    </div>
+    <h2 class="subtitle is-6">November 19, 2021</h2>
+    <h1 class="title">Fundamentals - Financial Infrastructure</h1>
+    
+    <div class="content">  
+      <div class="toc">
+        <strong>Table of Contents</strong>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#authors-note"><em>Author&rsquo;s Note</em></a></li>
+    <li><a href="#todays-market"><em>Today&rsquo;s Market</em></a></li>
+    <li><a href="#differences-between-cryptocurrencies"><strong>Differences between (Crypto)Currencies</strong></a></li>
+    <li><a href="#the-good-currency"><strong>The good Currency</strong></a></li>
+    <li><a href="#the-good-infrastructure"><strong>The good Infrastructure</strong></a></li>
+    <li><a href="#outlook"><em>Outlook</em></a></li>
+  </ul>
+</nav>
+      </div>
+      <br>
+      <p><em>This post is available as a pdf <a href="https://github.com/kevindeforth/kevindeforth.github.io/blob/main/issues/issue001.pdf">here</a>.</em></p>
+<h2 id="authors-note"><em>Author&rsquo;s Note</em></h2>
+<p>Welcome, human. Cryptocurrencies are experiencing all-time-highs and I
+find myself in a similar situation to 2017, with friends and family
+asking questions and craving knowledge. Sadly, it seems to me, that they
+are asking the wrong questions and craving the wrong kind of knowledge.</p>
+<p>This has led to the creation of <em>the Grob</em>. Inspired by <em>Grant&rsquo;s
+Interest Rate Observer</em>, it is supposed to become a sort of once or
+twice a month journal, commenting on and educating about
+cryptocurrencies and financial infrastructure. The name <em>the
+Grob</em> derives from <em>the great observer</em>, which was chosen not only
+because of a lack of modesty, but mostly because the domain was - to my
+surprise - still available.</p>
+<p>This issue of <em>the Grob</em> consists of a brief commentary on today&rsquo;s
+market, followed by articles explaining concepts, that I believe to be
+elementary to any discussion centered around cryptocurrencies. The first
+article is emphazising some differences between traditional currencies
+and cryptocurrencies. The second article will explain some properties of
+currencies, that nobel prize laureate Friedrich Hayek deemed appropriate
+for estimating a currency&rsquo;s usefulness. The third article defines
+financial infrastructure and indicates a model, that can be used for
+assessing the effectiveness thereof. Enjoy the read.</p>
+<hr>
+<h2 id="todays-market"><em>Today&rsquo;s Market</em></h2>
+<p>Cryptocurrency valuations are through the roof and one is rightly
+wondering, if we&rsquo;re in the midst of a bubble again. Unlike 2017, when
+the prices were driven by retail investors, this year it is
+institutional money flooding the market 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#wintermeyer"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Lawrence"><span itemprop="familyName">Wintermeyer</span></span>,&#32;<span itemprop="datePublished">2021</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/WebPage"
+      data-type="webpage"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Wintermeyer</span>,&#32;
+    <meta itemprop="givenName" content="Lawrence" />
+    L.
+    &#32;</span>(<span itemprop="datePublished">2021</span>).&#32;Retrieved from&#32;
+  <a href="https://www.forbes.com/sites/lawrencewintermeyer/2021/08/12/institutional-money-is-pouring-into-the-crypto-market-and-its-only-going-to-grow/"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://www.forbes.com/sites/lawrencewintermeyer/2021/08/12/institutional-money-is-pouring-into-the-crypto-market-and-its-only-going-to-grow/</a></span>
+
+
+
+
+</span></span>)</span>
+, 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#theconversation"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="The"><span itemprop="familyName">Conversation</span></span>,&#32;<span itemprop="datePublished">2021</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/WebPage"
+      data-type="webpage"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Conversation</span>,&#32;
+    <meta itemprop="givenName" content="The" />
+    T.
+    &#32;</span>(<span itemprop="datePublished">2021</span>).&#32;Retrieved from&#32;
+  <a href="https://theconversation.com/bitcoin-why-the-price-has-exploded-and-where-it-goes-from-here-152765"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://theconversation.com/bitcoin-why-the-price-has-exploded-and-where-it-goes-from-here-152765</a></span>
+
+
+
+
+</span></span>)</span>
+.</p>
+<p>This begs the question why institutions are willing to place bets on
+assets that are incredibly volatile, whose real value has yet to be
+determined and are thus of unparalleld risk comared to the stock or bond
+market. The answer to that question lies in historically low interest
+rates.</p>
+<p>Interest rates are so low, that most bonds yield a <em>negative net
+interest rate</em>. For people unfamiliar: interest rates define the price
+for money over a fixed period of time. The <em>net interest rate</em> refers to
+the interest rate adjusted for inflation. A negative net interest rate
+occurs, when inflation is higher than the interest rate of a loan.</p>
+<p>This situation originated in the financial crisis in 2007, when the
+federal reserve and other central banks began taking measures of
+quantitative easing. Essentially, central banks were printing money and
+they increased the printing speed in the early beginning of the Covid-19
+pandemic.</p>
+<p>According to economist William White 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#borio2004whither"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Claudio EV"><span itemprop="familyName">Borio</span></span>&#32;&amp;&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="William R"><span itemprop="familyName">White</span></span>,&#32;<span itemprop="datePublished">2004</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/Article"
+      data-type="article"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Borio</span>,&#32;
+    <meta itemprop="givenName" content="Claudio EV" />
+    C.
+    &#32;</span>&#32;&amp;&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">White</span>,&#32;
+    <meta itemprop="givenName" content="William R" />
+    W.
+    &#32;</span>
+  &#32;
+    (<span itemprop="datePublished">2004</span>).
+  &#32;<span itemprop="name">Whither monetary and financial stability? The implications of evolving policy regimes</span>.&#32;Retrieved from&#32;
+  <a href="https://www.bis.org/publ/work147.htm"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://www.bis.org/publ/work147.htm</a></span>
+
+
+
+
+</span></span>)</span>
+, this leads to
+an unhealthy market. As he explained in a recent conversation with Jim
+Grant, quantitative easing leasds to artifically low interest rates,
+resulting in cheap debt and a mis-pricing of risk.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>Inflation is eating up returns on relatively secure investments,
+including the value of cash-holdings. So in order to preserve the buying
+power of their fortune, investors are seeking ever riskier asset
+classes, as those are the only ones still giving a positive yield. This
+explains why the stock-market is at an all time high and why
+crypto-currencies might seem like a viable asset class for institutional
+investors.</p>
+<hr>
+<h2 id="differences-between-cryptocurrencies"><strong>Differences between (Crypto)Currencies</strong></h2>
+<p>FUNDAMENTALS</p>
+<p>There are two main differences between cryptocurrencies like Bitcoin
+
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#satoshi"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Satoshi"><span itemprop="familyName">Nakomoto</span></span>,&#32;<span itemprop="datePublished">2008</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Nakomoto</span>,&#32;
+    <meta itemprop="givenName" content="Satoshi" />
+    S.
+    &#32;</span>&#32;
+    (<span itemprop="datePublished">2008</span>).
+  &#32;<span itemprop="name">
+    <i>Bitcoin: A Peer-to-Peer Electronic Cash System</i></span>.
+  &#32;Retrieved from&#32;
+  <a href="https://bitcoin.org/bitcoin.pdf"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://bitcoin.org/bitcoin.pdf</a></span>
+
+
+
+
+</span></span>)</span>
+ and fiat currencies like the US Dollar: The first and obvious
+one is the underlying infrastructure, that is enabling transactions of
+the currency. The overwhelming majority of circulating fiat currency is
+traded on a network of governmental institutions, central banks, private
+banks and private companies. This network is relatively vulnerable and
+consists of many single points of failure. As such, much care has to be
+taken before allowing any new entities on the network. Governments know
+about the importance of their financial infrastructure and regularly
+assess its security. The International Monetary Fund (IMF) is publishing
+reviews of selected member state&rsquo;s financial infrastructure.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>Cryptocurrencies are run on a network of servers, that can belong to
+private entities as well as companies or governments. Most of these
+networks, with a few exceptions, are permission-less, meaning that
+anyone can connect with and become a a part of them. This <em>open door
+policy</em> is possible, because the underlying network is secured through
+cryptographic protocols, that allow for a certain percentage of network
+participants to be malicious or corrupted, without jeopardizing the
+functionality of the network. The network is thus much more redundant
+compared to traditional financial infrastructure.</p>
+<p>The second big difference between cryptocurrencies and fiat currencies
+is the underlying rule-set. A fiat currency is issued by a few central
+banks that decide, if there will be more or less units of the currency.
+On a second layer, private banks act as force multipliers. They are
+essentially creating new money through loans. Fiscal policy determines
+the required collateral of these banks and thus bounds the factor by
+which the original money supply can be multiplied. Therefore the
+rule-set of fiat currencies is defined by at least two factors: monetary
+and fiscal policy, both of which can be changed if the central bank, or
+the current legislative power of a nation, decide to do so.</p>
+<p>Cryptocurrencies are essentially a piece of code. That code contains the
+entire rule-set of the currency, defining monetary and fiscal policy at
+once. It also defines under what circumstances rules can be changed.
+Whoever controls the network, controls the code and can decide on the
+rules. There are many centralized cryptocurrencies that are essentially
+governed by a single private company. Such a centralization of control
+not only comes at a significant innate risk with regard to the security
+of the underlying network, but also at a great political risk. These
+companies operate in new legal territory and make for a great target by
+regulators. Ripple, a large cryptocurrency, is a prime example of this
+and the issuing company is currently in a lawsuit with the American
+Securities and Exchange Commission 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#secripple"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">U.S. Securities Exchange Commision</span></span>,&#32;<span itemprop="datePublished">2020</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/WebPage"
+      data-type="webpage"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">U.S. Securities Exchange Commision</span>
+    &#32;</span>(<span itemprop="datePublished">2020</span>).&#32;Retrieved from&#32;
+  <a href="https://www.sec.gov/news/press-release/2020-338"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://www.sec.gov/news/press-release/2020-338</a></span>
+
+
+
+
+</span></span>)</span>
+.</p>
+<p>It seems intuitive that centralized cryptocurrencies might have a very
+hard time ahead, as legislative pressure will most likely increase over
+time. Further, it has to be asked, what the benefit of a centralized
+currency might be. To fully answer that question, a deeper analysis of
+these networks is required.</p>
+<hr>
+<h2 id="the-good-currency"><strong>The good Currency</strong></h2>
+<p>FUNDAMENTALS</p>
+<p>According to Nobel-prize laureate F.A. Hayek, there are four uses for a
+currency: to purchase goods, to hold as a reserve for future payments,
+as a standard for deferred payments (e.g. in loans) and as a reliable
+unit of account. 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#hayek"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Friedrich August"><span itemprop="familyName">Hayek</span></span>,&#32;<span itemprop="datePublished">1990</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Hayek</span>,&#32;
+    <meta itemprop="givenName" content="Friedrich August" />
+    F.
+    &#32;</span>&#32;
+    (<span itemprop="datePublished">1990</span>).
+  &#32;<span itemprop="name">
+    <i>Denationalisation of Money</i></span>.
+  &#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">The Institute of Economic Affairs</span></span>.</span>
+
+
+
+
+</span></span>)</span>
+</p>
+<p>The first use requires a well developed infrastructure, on which the
+currency is traded and exchanged, possibly with the option of easily
+converting between other currencies. For the other three uses, Hayek
+claims that a currency of stable value would eventually serve best.</p>
+<p>The last point explains why Bitcoin, currently the largest
+cryptocurrency, according to market capitalization<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>, will never be a
+market dominating currency. With a fixed supply, Bitcoin&rsquo;s price will
+always be determined by demand. Demand, on the other hand, will most
+likely never be stable, but ever fluctuating.</p>
+<p>Ether 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#ether"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Ethereum Foundation</span></span>,&#32;<span itemprop="datePublished">2021</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/WebPage"
+      data-type="webpage"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Ethereum Foundation</span>
+    &#32;</span>(<span itemprop="datePublished">2021</span>).&#32;Retrieved from&#32;
+  <a href="https://ethereum.org/en/whitepaper/"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://ethereum.org/en/whitepaper/</a></span>
+
+
+
+
+</span></span>)</span>
+, the second largest cryptocurrency in market
+capitalization, does not have a fixed supply. However, price stability
+is not a priority for the Ethereum community, as Ethereum does not
+desire to be a currency for every day use. Instead, the network aims to
+provide the financial infrastructure, on which other currencies are
+traded. Ether is the fuel of the network, used to pay the fees for using
+the network. As such, its success must be measured with respect to the
+quality of its infrastructure, rather than its properties as a currency.</p>
+<hr>
+<h2 id="the-good-infrastructure"><strong>The good Infrastructure</strong></h2>
+<p>FUNDAMENTALS</p>
+<p>There are three things financial infrastructure must satisfy in order to
+be useful. First, it must be sufficiently powerful to enable all the
+transactions that are taking place on it. This is called <em>scalability</em>
+and the traditional financial infrastructure is very good at this.
+Cryptocurrencies, for the most part, are not.</p>
+<p>The second aspect is <em>security</em>. It is important that someone&rsquo;s money is
+not transferred without their consent and that transacted money is
+arriving in the designated account. Traditional financial infrastructure
+and most cryptocurrencies are doing quite good here, although there are
+many astrerixes to both. While traditional financial infrastructure has
+many single points of failures, making it vulnerable to targeted
+attacks, insurances and security nets are mitigating those risks
+extremely well. On the other hand, many of the networks, on which
+cryptocurrencies run, are decentralized and secured through mechanisms,
+that allow for a great part of the network to be corrupted, without
+affecting functionality or security. The caveat is that there is no such
+thing as bug-free code. In fact, some bugs have been found in the past,
+that could have severely harmed the integrity of some of these
+networks.<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> Similarly, it is possible, although unlikely, that some of
+the cryptographic primitives on which these networks are built, might be
+proven unsafe.<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+<p>The third aspect to consider when assessing the quality of financial
+infrastructure is the size of its ecosystem, which is primarily
+determined by its number of users. Unused infrastructure is not
+providing any value. On the other hand, the number of possible
+connections rises quadratically with the number of entities on a
+network.</p>
+<p>Ease and cost of access are two important factors influencing people&rsquo;s
+decision to use an infrastructure. While the traditional financial
+infrastructure has a high cost of entry, it makes up for that by being
+host to a big ecosystem, that is connecting billions of people and
+companies. Cryptocurrencies provide once more a heterogeneous picture:
+while most are easily accessible, some are quite restrictive; while some
+are starting to create a size-able ecosystem, others are lacking.</p>
+<hr>
+<h2 id="outlook"><em>Outlook</em></h2>
+<p>COMMENTARY</p>
+<p>The perfect financial infrastructure has yet to be created, but research
+and technology are progressing quickly and most likely, within the next
+five to ten years, these networks will scale and be secure. The reader
+is invited to envision the benefits a secure and <em>accessible</em> global
+financial infrastructure could bring to the individual. Similarly, what
+would be the implications of a truly stable currency? Imagine that what
+you save today, still holds the same buying power fifty or sixty years
+from now. Wouldn&rsquo;t this sort of currency reward long-term thinking and
+hard work? And if so, what are we rewarding with today&rsquo;s floating-value
+currencies?</p>
+<hr>
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+    <section class="hugo-cite-bibliography">
+    <h2> Bibliography</h2>
+    
+    <ul>
+      <li>
+
+      <div id="secripple">
+	  
+	<strong>
+          U.S. Securities Exchange Commision
+
+          
+          (2020)
+	</strong>
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/WebPage"
+      data-type="webpage"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">U.S. Securities Exchange Commision</span>
+    &#32;</span>(<span itemprop="datePublished">2020</span>).&#32;Retrieved from&#32;
+  <a href="https://www.sec.gov/news/press-release/2020-338"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://www.sec.gov/news/press-release/2020-338</a></span>
+
+
+
+
+</dd>
+      </div>
+      </li>
+      <li>
+
+      <div id="borio2004whither">
+	  
+	<strong>
+          Borio&#32;&amp;&#32;White
+
+          
+          (2004)
+	</strong>
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/Article"
+      data-type="article"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Borio</span>,&#32;
+    <meta itemprop="givenName" content="Claudio EV" />
+    C.
+    &#32;</span>&#32;&amp;&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">White</span>,&#32;
+    <meta itemprop="givenName" content="William R" />
+    W.
+    &#32;</span>
+  &#32;
+    (<span itemprop="datePublished">2004</span>).
+  &#32;<span itemprop="name">Whither monetary and financial stability? The implications of evolving policy regimes</span>.&#32;Retrieved from&#32;
+  <a href="https://www.bis.org/publ/work147.htm"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://www.bis.org/publ/work147.htm</a></span>
+
+
+
+
+</dd>
+      </div>
+      </li>
+      <li>
+
+      <div id="ether">
+	  
+	<strong>
+          Ethereum Foundation
+
+          
+          (2021)
+	</strong>
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/WebPage"
+      data-type="webpage"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Ethereum Foundation</span>
+    &#32;</span>(<span itemprop="datePublished">2021</span>).&#32;Retrieved from&#32;
+  <a href="https://ethereum.org/en/whitepaper/"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://ethereum.org/en/whitepaper/</a></span>
+
+
+
+
+</dd>
+      </div>
+      </li>
+      <li>
+
+      <div id="hayek">
+	  
+	<strong>
+          Hayek
+
+          
+          (1990)
+	</strong>
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Hayek</span>,&#32;
+    <meta itemprop="givenName" content="Friedrich August" />
+    F.
+    &#32;</span>&#32;
+    (<span itemprop="datePublished">1990</span>).
+  &#32;<span itemprop="name">
+    <i>Denationalisation of Money</i></span>.
+  &#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">The Institute of Economic Affairs</span></span>.</span>
+
+
+
+
+</dd>
+      </div>
+      </li>
+      <li>
+
+      <div id="satoshi">
+	  
+	<strong>
+          Nakomoto
+
+          
+          (2008)
+	</strong>
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Nakomoto</span>,&#32;
+    <meta itemprop="givenName" content="Satoshi" />
+    S.
+    &#32;</span>&#32;
+    (<span itemprop="datePublished">2008</span>).
+  &#32;<span itemprop="name">
+    <i>Bitcoin: A Peer-to-Peer Electronic Cash System</i></span>.
+  &#32;Retrieved from&#32;
+  <a href="https://bitcoin.org/bitcoin.pdf"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://bitcoin.org/bitcoin.pdf</a></span>
+
+
+
+
+</dd>
+      </div>
+      </li>
+      <li>
+
+      <div id="theconversation">
+	  
+	<strong>
+          Conversation
+
+          
+          (2021)
+	</strong>
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/WebPage"
+      data-type="webpage"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Conversation</span>,&#32;
+    <meta itemprop="givenName" content="The" />
+    T.
+    &#32;</span>(<span itemprop="datePublished">2021</span>).&#32;Retrieved from&#32;
+  <a href="https://theconversation.com/bitcoin-why-the-price-has-exploded-and-where-it-goes-from-here-152765"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://theconversation.com/bitcoin-why-the-price-has-exploded-and-where-it-goes-from-here-152765</a></span>
+
+
+
+
+</dd>
+      </div>
+      </li>
+      <li>
+
+      <div id="wintermeyer">
+	  
+	<strong>
+          Wintermeyer
+
+          
+          (2021)
+	</strong>
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/WebPage"
+      data-type="webpage"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Wintermeyer</span>,&#32;
+    <meta itemprop="givenName" content="Lawrence" />
+    L.
+    &#32;</span>(<span itemprop="datePublished">2021</span>).&#32;Retrieved from&#32;
+  <a href="https://www.forbes.com/sites/lawrencewintermeyer/2021/08/12/institutional-money-is-pouring-into-the-crypto-market-and-its-only-going-to-grow/"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://www.forbes.com/sites/lawrencewintermeyer/2021/08/12/institutional-money-is-pouring-into-the-crypto-market-and-its-only-going-to-grow/</a></span>
+
+
+
+
+</dd>
+      </div>
+      </li>
+    </ul>
+</section>
+
+
+
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Here is a conversation between the two from late 2020: <a href="https://youtu.be/8cYGmGZOabQ">https://youtu.be/8cYGmGZOabQ</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>for example this one for Switzerland:
+<a href="https://www.elibrary.imf.org/view/journals/002/2019/190/002.2019.issue-190-en.xml">https://www.elibrary.imf.org/view/journals/002/2019/190/002.2019.issue-190-en.xml</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>source: <a href="https://coinmarketcap.com/">https://coinmarketcap.com/</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p>Just one example:
+<a href="https://www.coindesk.com/tech/2020/09/09/high-severity-bug-in-bitcoin-software-revealed-2-years-after-fix/">https://www.coindesk.com/tech/2020/09/09/high-severity-bug-in-bitcoin-software-revealed-2-years-after-fix/</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5" role="doc-endnote">
+<p>The SEC named this one of the reasons for rejecting the <em>VanEck
+Bitcoin Trust</em> ETF:
+<a href="https://www.sec.gov/rules/sro/cboebzx/2021/34-93559.pdf">https://www.sec.gov/rules/sro/cboebzx/2021/34-93559.pdf</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+      
+    </div>
+    
+  </div>
+
+</section>
+
+
+<section class="section">
+  <div class="container has-text-centered">
+    <p>&copy; <a href="https://github.com/kevindeforth">Kevin Deforth</a> 2022</p>
+    
+    <p>Powered by <a href="https://gohugo.io/">Hugo</a>, <a href="https://github.com/ribice/kiss">Kiss</a>  &amp; <a href="https://github.com/loup-brun/hugo-cite">Hugo Cite</a>.</p>
+    
+  </div>
+</section>
+
+
+
+
+
+</body>
+</html>
+
